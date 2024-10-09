@@ -18,7 +18,7 @@ const Login = () => {
 
     try {
       const response = await axios.post(
-        "https://infomationfront-muhammad-haroon-talibs-projects.vercel.app/api/v1/user/login",
+        "https://information-tan.vercel.app/api/v1/user/login",
         { email, password },
         { withCredentials: true }
       );
