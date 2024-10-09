@@ -19,7 +19,7 @@ const SignUp = () => {
 
     try {
       const response = await axios.post(
-        "https://information-tan.vercel.app/api/v1/user/register",
+        "https://infomationfront-muhammad-haroon-talibs-projects.vercel.app/api/v1/user/register",
         {
           username,
           email,
